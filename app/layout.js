@@ -41,6 +41,7 @@ export const metadata = {
 };
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import { FloatingDockDemo } from "./components/FloatNav";
+import Footer from "./components/Footer";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -51,6 +52,7 @@ export default function RootLayout({ children }) {
           {/* <FloatingDockDemo /> */}
 
           {children}
+          <Footer />
         </main>
       </body>
     </html>
