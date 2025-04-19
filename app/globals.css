@@ -124,9 +124,8 @@
 /* === Futuristic Grid Background === */
 body {
   margin: 0;
-  min-height: 100vh;
   background: linear-gradient(to bottom right, #0a0a23, #000000);
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
   color: white; /* optional: for better contrast */
 }
