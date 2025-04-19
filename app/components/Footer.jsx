@@ -24,15 +24,27 @@ export default function AbnormalFooter() {
         {/* Social Icons */}
         <div className="flex justify-center space-x-8 mb-8">
           {[
-            { icon: FaTwitter, color: "text-sky-400" },
-            { icon: FaGithub, color: "text-white" },
-            { icon: FaLinkedin, color: "text-blue-500" },
-          ].map(({ icon: Icon, color }, idx) => (
+            {
+              icon: FaTwitter,
+              color: "text-sky-400",
+              link: "https://x.com/adarshapaudyal_",
+            },
+            {
+              icon: FaGithub,
+              color: "text-white",
+              link: "https://github.com/Adarsha59",
+            },
+            {
+              icon: FaLinkedin,
+              color: "text-blue-500",
+              link: "https://www.linkedin.com/in/adarshapaudyal",
+            },
+          ].map(({ icon: Icon, color, link }, idx) => (
             <motion.a
               key={idx}
               whileHover={{ scale: 1.3, rotate: 10 }}
               className={`transition transform duration-300 ${color} text-3xl hover:drop-shadow-glow`}
-              href="#"
+              href={link}
               target="_blank"
             >
               <Icon />
@@ -41,26 +53,6 @@ export default function AbnormalFooter() {
         </div>
 
         {/* Footer Info Sections */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 text-center text-gray-300 gap-6">
-          <div>
-            <h4 className="text-lg font-semibold mb-2">Company</h4>
-            <p>About</p>
-            <p>Careers</p>
-            <p>Blog</p>
-          </div>
-          <div>
-            <h4 className="text-lg font-semibold mb-2">Support</h4>
-            <p>Help Center</p>
-            <p>Privacy Policy</p>
-            <p>Contact</p>
-          </div>
-          <div>
-            <h4 className="text-lg font-semibold mb-2">Services</h4>
-            <p>Design</p>
-            <p>Development</p>
-            <p>Marketing</p>
-          </div>
-        </div>
 
         {/* Bottom */}
         <p className="mt-10 text-center text-sm text-gray-400">

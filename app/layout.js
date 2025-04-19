@@ -42,15 +42,15 @@ export const metadata = {
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import { FloatingDockDemo } from "./components/FloatNav";
 import Footer from "./components/Footer";
+import { Boxes } from "@/components/ui/background-boxes";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${dancescript.variable} antialiased`}>
         <BackgroundBeams />
+        {/* <Boxes /> */}
         <main className={inconsolata.className}>
           <Navbar />
-          {/* <FloatingDockDemo /> */}
-
           {children}
           <Footer />
         </main>
