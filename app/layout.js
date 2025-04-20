@@ -47,8 +47,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${dancescript.variable} antialiased`}>
-        <BackgroundBeams />
-        {/* <Boxes /> */}
+        {/* <BackgroundBeams /> */}
+        <Boxes />
         <main className={inconsolata.className}>
           <Navbar />
           {children}
