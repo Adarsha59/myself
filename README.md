@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio Website
 
-## Getting Started
+Welcome to my personal portfolio website! This website showcases my skills, projects, and experience as an Electronic and Communication Engineering student with a passion for web development, IoT, and robotics. It also includes various projects I've worked on, including frontend and backend web applications, embedded systems, and more.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. [Introduction](#introduction)
+2. [Technologies Used](#technologies-used)
+3. [Features](#features)
+4. [Setup and Installation](#setup-and-installation)
+5. [Usage](#usage)
+6. [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introduction
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+I am an aspiring engineer with a strong foundation in web development and a deep interest in integrating hardware with software solutions. This portfolio website reflects my technical skills, achievements, and ongoing projects. It serves as a platform for showcasing my work and connecting with potential collaborators or employers.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+This portfolio website was built with the following technologies:
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend:**
+  - HTML, CSS, JavaScript
+  - React.js (for interactive UI components)
+  - Tailwind CSS (for responsive and modern UI design)
+  - Next.js (for server-side rendering and routing)
+- **Backend:**
+  - Node.js and Express (for API functionality)
+  - MongoDB (for database management)
+  - JWT (for authentication and session management)
+- **Version Control:**
+  - Git and GitHub
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Responsive Design:** The website is fully responsive and adapts seamlessly to desktop, tablet, and mobile screens.
+- **Projects Showcase:** A section that highlights my personal and professional projects with detailed descriptions and links to their respective repositories.
+- **Contact Form:** A simple contact form that allows users to get in touch with me directly.
+- **Dynamic Blog Section:** A blog section where I share my thoughts on engineering, web development, IoT, and more.
 
-## Deploy on Vercel
+## Setup and Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To run this portfolio website locally, follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/your-username/portfolio-website.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd portfolio-website
+   ```
+
+3. Install the necessary dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit `http://localhost:3000` to view the portfolio.
+
+## Usage
+
+This website is designed to be a static portfolio, meaning you can explore my work, learn about my skills, and contact me directly. Feel free to explore my projects and get a sense of the work I’ve done in various fields of engineering and web development.
+
+## Contact
+
+You can reach me via the contact form on the website or at the following:
+
+- **Email:** code.adarsha.com
+- **LinkedIn:** [linkedin.com/in/your-profile](https://www.linkedin.com/in/adarshapaudyal)
+- **GitHub:** [Adarsha59]()
+
+---
+
+Feel free to modify it according to your personal preferences or additional details you’d like to include!
