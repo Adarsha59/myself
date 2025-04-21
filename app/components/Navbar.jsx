@@ -12,7 +12,7 @@ function Navbar() {
           About
         </Link>
         <Link
-          href="#about"
+          href="./resume"
           className="transition-all duration-300 hover:text-purple-400"
         >
           Resume
