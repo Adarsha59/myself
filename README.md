@@ -77,7 +77,7 @@ This website is designed to be a static portfolio, meaning you can explore my wo
 You can reach me via the contact form on the website or at the following:
 
 - **Email:** code.adarsha.com
-- **LinkedIn:** [linkedin.com/in/your-profile](https://www.linkedin.com/in/adarshapaudyal)
+- **LinkedIn:** [adarsha](https://www.linkedin.com/in/adarshapaudyal)
 - **GitHub:** [Adarsha59]()
 
 ---
