@@ -164,7 +164,7 @@ export default function ChatPage() {
               type="submit"
               className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition"
             >
-              Send
+              Sends
             </button>
           </form>
         </div>
