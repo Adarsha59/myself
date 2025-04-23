@@ -4,8 +4,8 @@ import { useState } from "react";
 import axios from "axios";
 import Preview from "./Preview";
 
-const botToken = "YOUR_BOT_TOKEN"; // Make sure to hide this in env for security
-const chatId = "@yourchannelorchatid";
+const botToken = "5493281632:AAFUytJUqnKuglpenZdf_tzLF7P8Ryiwu6c"; // Make sure to hide this in env for security
+const chatId = "@asfasfsfawrw";
 
 export default function FileUpload() {
   const [file, setFile] = useState(null);
@@ -78,7 +78,7 @@ export default function FileUpload() {
   };
 
   return (
-    <div className="w-full max-w-lg flex flex-col gap-4 p-4 bg-gray-900 text-white rounded-lg shadow-lg">
+    <div className="w-full max-w-lg flex flex-col gap-4 p-4  text-white rounded-lg shadow-lg">
       <input
         type="file"
         onChange={handleFileChange}
