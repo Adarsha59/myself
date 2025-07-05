@@ -36,77 +36,60 @@ const inconsolata = Inconsolata({
 });
 
 export const metadata = {
-  title:
-    "Adarsha Paudyal – Full Stack Web Developer | MERN Stack & Next.js Specialist",
+  title: "Contact | Adarsha Paudyal - Electronic & Communication Engineer",
   description:
-    "Explore the portfolio of Adarsha Paudyal, a passionate Electronics and Communication Engineering student specializing in full-stack development with expertise in React.js, Node.js, and MongoDB. Discover projects in web development, IoT, and robotics.",
-  keywords: [
-    "Adarsha Paudyal",
-    "paudyal",
-    "adarsha",
-    "adarshapaudyal",
-    "adarshapaudyal.com",
-    "adarshapaudyal portfolio",
-    "adarshapaudyal resume",
-    "adarshapaudyal projects",
-    "adarshapaudyal contact",
-
-    "adarshapaudyal blog",
-    "adarshapaudyal services",
-    "adarshapaudyal projects",
-    "adarshapaudyal skills",
-    "adarshapaudyal experience",
-    "adarshapaudyal education",
-    "adarshapaudyal work",
-    "adarshapaudyal contact",
-    "aadarshapaudyal",
-    "adarshapaudyal github",
-    "adarshapaudyal linkedin",
-    "ncit adarshapaudyal",
-    "full stack developer",
-    "MERN stack",
-    "Next.js",
-    "React.js",
-    "Node.js",
-    "MongoDB",
-    "IoT",
-    "robotics",
-    "web development",
-    "portfolio",
-    "Nepal",
-    "Electronics and Communication Engineering",
-  ],
-  author: "Adarsha Paudyal",
+    "Connect with Adarsha Paudyal — Electronic & Communication Engineer specializing in IoT, robotics, and web development. Reach out via GitHub, LinkedIn, YouTube, Twitter (X), and more.",
   openGraph: {
-    type: "website",
-    url: "https://www.aadarshapaudyal.com.np", // Replace with your actual website URL
-    title:
-      "Adarsha Paudyal – Full Stack Web Developer | MERN Stack & Next.js Specialist",
+    title: "Contact Adarsha Paudyal - Electronic & Communication Engineer",
     description:
-      "Explore the portfolio of Adarsha Paudyal, a passionate Electronics and Communication Engineering student specializing in full-stack development with expertise in React.js, Node.js, and MongoDB.",
+      "Official contact page for Adarsha Paudyal — connect on GitHub, LinkedIn, YouTube, Twitter (X), and more.",
+    url: "https://myselfadarsha.vercel.app/contact",
+    siteName: "Myself Adarsha Portfolio",
     images: [
       {
-        url: "https://i.pinimg.com/736x/b6/7e/71/b67e713fc5ad2722b96ad3c86fa901bc.jpg", // Replace with an actual image path
-        width: 800,
-        height: 600,
-        alt: "Adarsha Paudyal Portfolio",
+        url: "https://myselfadarsha.vercel.app/adarsha-paudyal-electronic-communication-engineer.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Adarsha Paudyal - Electronic & Communication Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@adarshapaudyal_", // Replace with your Twitter handle
-    title:
-      "Adarsha Paudyal – Full Stack Web Developer | MERN Stack & Next.js Specialist",
+    site: "@adarshapaudyal_",
+    creator: "@adarshapaudyal_",
+    title: "Contact | Adarsha Paudyal - Electronic & Communication Engineer",
     description:
-      "Explore the portfolio of Adarsha Paudyal, a passionate Electronics and Communication Engineering student specializing in full-stack development with expertise in React.js, Node.js, and MongoDB.",
-    image:
-      "https://i.pinimg.com/736x/b6/7e/71/b67e713fc5ad2722b96ad3c86fa901bc.jpg", // Replace with an actual image path
+      "Contact Adarsha Paudyal — Electronic & Communication Engineer. Connect via GitHub, LinkedIn, YouTube, Twitter (X), and more.",
+    images: [
+      "https://myselfadarsha.vercel.app/adarsha-paudyal-electronic-communication-engineer.jpg",
+    ],
   },
-  links: [
-    { rel: "icon", href: "/favicon.ico" },
-    { rel: "canonical", href: "https://www.aadarshapaudyal.com.np" },
-  ],
+  alternates: {
+    canonical: "https://myselfadarsha.vercel.app/contact",
+  },
+  other: {
+    "application/ld+json": JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Adarsha Paudyal",
+      jobTitle: "Electronic & Communication Engineer",
+      image:
+        "https://myselfadarsha.vercel.app/adarsha-paudyal-electronic-communication-engineer.jpg",
+      url: "https://myselfadarsha.vercel.app",
+      sameAs: [
+        "https://github.com/Adarsha59",
+        "https://www.linkedin.com/in/adarshapaudyal",
+        "https://www.facebook.com/paudyaladarsha",
+        "https://www.youtube.com/@moviehunt59",
+        "https://twitter.com/adarshapaudyal_",
+      ],
+      worksFor: {
+        "@type": "Organization",
+        name: "Myself Adarsha Portfolio",
+      },
+    }),
+  },
 };
 
 import { BackgroundBeams } from "@/components/ui/background-beams";
