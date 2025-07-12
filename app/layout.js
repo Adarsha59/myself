@@ -43,11 +43,11 @@ export const metadata = {
     title: "Contact Adarsha Paudyal - Electronic & Communication Engineer",
     description:
       "Official contact page for Adarsha Paudyal — connect on GitHub, LinkedIn, YouTube, Twitter (X), and more.",
-    url: "https://myselfadarsha.vercel.app/contact",
+    url: "https://aadarsha.vercel.app/contact",
     siteName: "Myself Adarsha Portfolio",
     images: [
       {
-        url: "https://myselfadarsha.vercel.app/adarsha-paudyal-electronic-communication-engineer.jpg",
+        url: "https://aadarsha.vercel.app/adarsha-paudyal-electronic-communication-engineer.jpg",
         width: 1200,
         height: 630,
         alt: "Adarsha Paudyal - Electronic & Communication Engineer",
@@ -62,11 +62,11 @@ export const metadata = {
     description:
       "Contact Adarsha Paudyal — Electronic & Communication Engineer. Connect via GitHub, LinkedIn, YouTube, Twitter (X), and more.",
     images: [
-      "https://myselfadarsha.vercel.app/adarsha-paudyal-electronic-communication-engineer.jpg",
+      "https://aadarsha.vercel.app/adarsha-paudyal-electronic-communication-engineer.jpg",
     ],
   },
   alternates: {
-    canonical: "https://myselfadarsha.vercel.app/contact",
+    canonical: "https://aadarsha.vercel.app/contact",
   },
   other: {
     "application/ld+json": JSON.stringify({
@@ -75,8 +75,8 @@ export const metadata = {
       name: "Adarsha Paudyal",
       jobTitle: "Electronic & Communication Engineer",
       image:
-        "https://myselfadarsha.vercel.app/adarsha-paudyal-electronic-communication-engineer.jpg",
-      url: "https://myselfadarsha.vercel.app",
+        "https://aadarsha.vercel.app/adarsha-paudyal-electronic-communication-engineer.jpg",
+      url: "https://aadarsha.vercel.app/",
       sameAs: [
         "https://github.com/Adarsha59",
         "https://www.linkedin.com/in/adarshapaudyal",
