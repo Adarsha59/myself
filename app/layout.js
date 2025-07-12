@@ -99,6 +99,13 @@ import { Boxes } from "@/components/ui/background-boxes";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="7m-U8YJfbnZ2B10rfZfAEeb3P5nZ9HvZtHCznHQyQaI"
+        />
+      </head>
+
       <body className={`${dancescript.variable} antialiased`}>
         {/* <Boxes /> */}
         <BackgroundBeams />
