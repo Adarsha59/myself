@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://aadarsha.vercel.app/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://aadarsha.vercel.app/adarsha-paudyal.jpg</image:loc>
+      <image:caption>Adarsha Paudyal Electronics & Communication Engineer</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.pinimg.com/736x/b6/7e/71/b67e713fc5ad2722b96ad3c86fa901bc.jpg</image:loc>
+      <image:caption>Adarsha Paudyal smiling - Electronics & Communication Engineer</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Resume Page -->
+  <url>
+    <loc>https://aadarsha.vercel.app/resume</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Services/Tools Page -->
+  <url>
+    <loc>https://aadarsha.vercel.app/tool</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Projects Page -->
+  <url>
+    <loc>https://aadarsha.vercel.app/project</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://aadarsha.vercel.app/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
