@@ -183,7 +183,7 @@ export default function ContactClient() {
             >
               👻 Snapchat: Snap me{" "}
               <LinkPreview
-                url="https://snapchat.com/add/yourusername"
+                url="https://snapchat.com/add/adarsha_io"
                 className="font-bold inline-flex items-center gap-2 text-yellow-300 hover:text-yellow-200"
               >
                 <FaSnapchatGhost /> Snapchat
@@ -257,7 +257,7 @@ export default function ContactClient() {
           </motion.a>
           <motion.a
             whileHover={{ scale: 1.2, rotateY: 180 }}
-            href="https://snapchat.com/add/yourusername"
+            href="https://snapchat.com/add/adarsha_io"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white/80 hover:text-yellow-300 transition duration-300 ease-in-out"

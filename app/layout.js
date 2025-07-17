@@ -36,7 +36,7 @@ const inconsolata = Inconsolata({
 });
 
 export const metadata = {
-  title: "Contact | Adarsha Paudyal - Electronic & Communication Engineer",
+  title: "Adarsha Paudyal |  Contact  - Electronic & Communication Engineer",
   description:
     "Connect with Adarsha Paudyal — Electronic & Communication Engineer specializing in IoT, robotics, and web development. Reach out via GitHub, LinkedIn, YouTube, Twitter (X), and more.",
   openGraph: {
