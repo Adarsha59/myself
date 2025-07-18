@@ -108,6 +108,12 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="7m-U8YJfbnZ2B10rfZfAEeb3P5nZ9HvZtHCznHQyQaI"
         />
+
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6229464226846656"
+          crossorigin="anonymous"
+        ></script>
       </head>
 
       <body className={`${dancescript.variable} antialiased`}>
