@@ -308,19 +308,19 @@ const products = [
   },
   {
     title: "NGL",
-    link: "hamro-ngl.vercel.app/",
+    link: "https://hamro-ngl.vercel.app/",
     thumbnail:
       "https://framerusercontent.com/images/v9v7nmCuQWuKMhx9ajbiGlhCrD4.png",
   },
   {
     title: "HamroAI",
-    link: "hamroai.vercel.app/",
+    link: "https://hamroai.vercel.app/",
     thumbnail:
       "https://img.freepik.com/free-photo/saas-concept-collage_23-2149399295.jpg?t=st=1745221088~exp=1745224688~hmac=73ee489e641942c6e005e4a3b21e228cd33ca112d7225b1ddc53182dd495ab60&w=996",
   },
   {
     title: "Hamro-Blog",
-    link: "hamroblog.vercel.app",
+    link: "https://hamroblog.vercel.app",
     thumbnail:
       "https://img.freepik.com/free-photo/technology-communication-icons-symbols-concept_53876-120314.jpg?t=st=1745221179~exp=1745224779~hmac=453eb2fe56a58e3a8fcedf64a60a2a71e2f203b96facbed6692f9f803b7a0cd5&w=826",
   },

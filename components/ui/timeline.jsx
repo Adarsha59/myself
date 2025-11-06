@@ -31,7 +31,7 @@ export const Timeline = ({ data }) => {
         <h2 className="text-lg md:text-4xl mb-4 text-yellow-600 dark:text-white max-w-4xl">
           From Zero to Ohm: My ECE Journey
         </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
+        <p className="text-white-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
           Electric vibes only. Once upon a time, a wild engineer appeared.
           Specializing in Electronics & Communication but accidentally fell in
           love with code.

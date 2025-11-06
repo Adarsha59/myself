@@ -1,35 +1,39 @@
 import {
-  Cutive_Mono,
   Dancing_Script,
   Geist,
   Geist_Mono,
   Inconsolata,
   Roboto_Mono,
-  VT323,
 } from "next/font/google";
+import Script from "next/script"; // ✅ Import this
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import { BackgroundBeams } from "@/components/ui/background-beams";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
+
 const dancescript = Dancing_Script({
   variable: "--font-dancing-script",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"], // Adjust weights based on font availability
-  style: ["normal"], // Ensure "italic" is removed if unsupported
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
+
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
 const robotoMono = Roboto_Mono({
-  subsets: ["latin"],
   variable: "--font-roboto-mono",
+  subsets: ["latin"],
   display: "swap",
 });
+
 const inconsolata = Inconsolata({
   variable: "--font-inconsolata",
   subsets: ["latin"],
@@ -38,7 +42,7 @@ const inconsolata = Inconsolata({
 export const metadata = {
   title: "Adarsha Paudyal |  Contact  - Electronic & Communication Engineer",
   description:
-    "Connect with Adarsha Paudyal — Electronic & Communication Engineer specializing in IoT, robotics, and web development. Reach out via GitHub, LinkedIn, YouTube, Twitter (X), and more.",
+    "Connect with Adarsha Paudyal — Electronic & Communication Engineer specializing in IoT, robotics, and web development.",
   openGraph: {
     title: "Contact Adarsha Paudyal - Electronic & Communication Engineer",
     description:
@@ -92,10 +96,6 @@ export const metadata = {
   },
 };
 
-import { BackgroundBeams } from "@/components/ui/background-beams";
-import { FloatingDockDemo } from "./components/FloatNav";
-import Footer from "./components/Footer";
-import { Boxes } from "@/components/ui/background-boxes";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -116,8 +116,21 @@ export default function RootLayout({ children }) {
         ></script>
       </head>
 
+      {/* ✅ Use Next.js Script for Google Analytics */}
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-4QQY6YZCVW"
+      />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-4QQY6YZCVW');
+        `}
+      </Script>
+
       <body className={`${dancescript.variable} antialiased`}>
-        {/* <Boxes /> */}
         <BackgroundBeams />
         <main className={inconsolata.className}>
           <Navbar />
