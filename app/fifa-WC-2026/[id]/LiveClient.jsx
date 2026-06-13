@@ -7,8 +7,8 @@ export default function LiveClient() {
   const playerRef = useRef(null);
 
   const links = {
-    1: "https://cr7world.pages.dev/shaka?id=mob2",
-    2: "https://cr7world.pages.dev/shaka?id=mob1",
+    1: "https://streamcrichd.com/update/fetch.php?hd=50&embed=1",
+    2: "https://cr7world.pages.dev/shaka?id=mob2",
   };
 
   const goFullScreen = () => {

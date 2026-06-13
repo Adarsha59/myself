@@ -119,7 +119,7 @@ export default function LiveClient({ matchId, startTime }) {
           {/* SAFE IFRAME */}
           <iframe
             key={server}
-            src={links[server]}
+            src={links[server]} 
             style={{
               width: "100%",
               height: "100%",
@@ -130,6 +130,16 @@ export default function LiveClient({ matchId, startTime }) {
             scrolling="no"
             title="Live Stream"
           />
+
+            <iframe
+            src="https://streamcrichd.com/update/fetch.php?hd=50&embed=1"
+            width="100%"
+            height="500"
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen
+            allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+          ></iframe>
         </div>
       </div>
 
