@@ -30,11 +30,11 @@ export default function ProjectPage() {
   return (
     <div
       ref={containerRef}
-      className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden"
+      className="min-h-screen bg-linear-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden"
     >
       {/* Animated Background Grid */}
       <div className="absolute inset-0 opacity-20">
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[size:50px_50px] animate-pulse"></div>
+        <div className="absolute inset-0 bg-[linear-linear(rgba(255,255,255,0.1)_1px,transparent_1px),linear-linear(90deg,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[size:50px_50px] animate-pulse"></div>
       </div>
 
       {/* Floating Particles */}
@@ -63,7 +63,7 @@ export default function ProjectPage() {
 
       {/* Mouse Follower */}
       <motion.div
-        className="absolute w-32 h-32 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-xl pointer-events-none z-10"
+        className="absolute w-32 h-32 bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-xl pointer-events-none z-10"
         animate={{
           x: mousePosition.x - 64,
           y: mousePosition.y - 64,
@@ -79,7 +79,7 @@ export default function ProjectPage() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-6">
+          <h1 className="text-6xl md:text-8xl font-bold bg-linear-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-6">
             Portfolio
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
@@ -96,7 +96,7 @@ export default function ProjectPage() {
             onHoverStart={() => setIsHovered(true)}
             onHoverEnd={() => setIsHovered(false)}
           >
-            <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-600/20 to-purple-600/20 p-1">
+            <div className="relative overflow-hidden rounded-2xl bg-linear-to-br from-blue-600/20 to-purple-600/20 p-1">
               <div className="relative overflow-hidden rounded-xl bg-slate-800/50 backdrop-blur-sm">
                 <motion.img
                   src={products[activeProject].thumbnail}
@@ -105,7 +105,7 @@ export default function ProjectPage() {
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.3 }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-slate-900/80 via-transparent to-transparent" />
 
                 {/* Hover Overlay */}
                 <AnimatePresence>
@@ -122,7 +122,7 @@ export default function ProjectPage() {
                         onClick={() =>
                           window.open(products[activeProject].link, "_blank")
                         }
-                        className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+                        className="px-8 py-3 bg-linear-to-r from-blue-500 to-purple-600 text-white rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
                       >
                         View Project
                       </motion.button>
@@ -145,7 +145,7 @@ export default function ProjectPage() {
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
                 {products[activeProject].title}
               </h2>
-              <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full mb-6" />
+              <div className="w-20 h-1 bg-linear-to-r from-blue-500 to-purple-600 rounded-full mb-6" />
             </div>
 
             <p className="text-gray-300 text-lg leading-relaxed">
@@ -161,7 +161,7 @@ export default function ProjectPage() {
                   >
                     {tag}
                   </span>
-                )
+                ),
               )}
             </div>
 
@@ -171,7 +171,7 @@ export default function ProjectPage() {
               onClick={() =>
                 window.open(products[activeProject].link, "_blank")
               }
-              className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+              className="inline-flex items-center gap-3 px-8 py-4 bg-linear-to-r from-blue-600 to-purple-600 text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <span>Explore Project</span>
               <svg
@@ -209,7 +209,7 @@ export default function ProjectPage() {
                   alt={project.title}
                   className="w-full h-32 object-cover transition-all duration-300 group-hover:brightness-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-slate-900/80 to-transparent" />
                 <div className="absolute bottom-2 left-2 right-2">
                   <h3 className="text-white text-sm font-semibold truncate">
                     {project.title}
@@ -243,7 +243,7 @@ export default function ProjectPage() {
           ].map((stat, index) => (
             <div key={index} className="text-center">
               <motion.div
-                className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-2"
+                className="text-4xl md:text-5xl font-bold bg-linear-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-2"
                 whileHover={{ scale: 1.1 }}
               >
                 {stat.number}

@@ -9,11 +9,9 @@ export default function Navbar() {
           <Link href="/tool" className="hover:text-purple-400 transition">
             Services
           </Link>
-
           <Link href="/resume" className="hover:text-purple-400 transition">
             Resume
           </Link>
-
           <Link
             href="https://hamroblog.vercel.app/"
             target="_blank"
@@ -21,29 +19,27 @@ export default function Navbar() {
           >
             Blog
           </Link>
-
           <Link href="/project" className="hover:text-purple-400 transition">
             Projects
           </Link>
-
           <Link href="/contact" className="hover:text-purple-400 transition">
             Contact
           </Link>
 
           <Link
-  href="/fifa-WC-2026"
-  className="group flex items-center gap-2 border-l border-white/20 pl-4"
->
-  <img
-    src="https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png"
-    alt="FIFA World Cup 2026"
-    width={24}
-    height={24}
-    className="w-5 h-5 md:w-6 md:h-6 transition-transform duration-300 group-hover:scale-110"
-  />
+            href="/fifa-WC-2026"
+            className="group flex items-center gap-2 border-l border-white/20 pl-4"
+          >
+            <img
+              src="https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png"
+              alt="FIFA World Cup 2026"
+              width={24}
+              height={24}
+              className="w-5 h-5 md:w-6 md:h-6 transition-transform duration-300 group-hover:scale-110"
+            />
 
-  <span
-    className="
+            <span
+              className="
       hidden sm:block
       font-black
       uppercase
@@ -59,10 +55,10 @@ export default function Navbar() {
       duration-300
       group-hover:scale-105
     "
-  >
-    FIFA WC 2026
-  </span>
-</Link>
+            >
+              FIFA WC 2026
+            </span>
+          </Link>
         </div>
       </div>
     </div>
