@@ -7,8 +7,8 @@ export default function LiveClient() {
   const playerRef = useRef(null);
 
   const links = {
-    2: "https://streamcrichd.com/update/fetch.php?hd=50&embed=1",
-    1: "https://cr7world.pages.dev/shaka?id=mob2",
+    1: "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u2",
+    2: "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
   };
 
   const goFullScreen = () => {
