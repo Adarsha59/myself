@@ -7,8 +7,9 @@ export default function LiveClient() {
   const playerRef = useRef(null);
 
   const links = {
-    1: "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u2",
-    2: "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
+    1: "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u2",
+    2: "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8",
+    3: "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
   };
 
   const goFullScreen = () => {
@@ -116,7 +117,7 @@ export default function LiveClient() {
             borderRadius: "12px",
           }}
         >
-          {[1, 2].map((s) => (
+          {[2, 3].map((s) => (
             <button
               key={s}
               onClick={() => setServer(s)}

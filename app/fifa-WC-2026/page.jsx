@@ -53,226 +53,149 @@ const FLAGS = {
 };
 const schedule = [
   {
-    date: "Tomorrow",
+    date: "Sun, Jun 28",
     matches: [
       {
         time: "00:45",
-        group: "B",
-        home: "Qatar",
-        away: "Switzerland",
-        slug: "qatar-vs-switzerland",
-      },
-      {
-        time: "03:45",
-        group: "C",
-        home: "Brazil",
-        away: "Morocco",
-        slug: "brazil-vs-morocco",
-      },
-      {
-        time: "06:45",
-        group: "C",
-        home: "Haiti",
-        away: "Scotland",
-        slug: "haiti-vs-scotland",
-      },
-      {
-        time: "09:45",
-        group: "D",
-        home: "Australia",
-        away: "Türkiye",
-        slug: "australia-vs-turkiye",
-      },
-      {
-        time: "22:45",
-        group: "E",
-        home: "Germany",
-        away: "Curaçao",
-        slug: "germany-vs-curacao",
+        stage: "Round of 32",
+        home: "South Africa",
+        away: "Canada",
+        slug: "south-africa-vs-canada",
       },
     ],
   },
+
   {
-    date: "Mon, Jun 15",
+    date: "Mon, Jun 29",
     matches: [
       {
-        time: "01:45",
-        group: "F",
-        home: "Netherlands",
+        time: "21:45",
+        stage: "Round of 32",
+        home: "Brazil",
         away: "Japan",
-        slug: "netherlands-vs-japan",
+        slug: "brazil-vs-japan",
       },
       {
-        time: "04:45",
-        group: "E",
-        home: "Ivory Coast",
-        away: "Ecuador",
-        slug: "ivory-coast-vs-ecuador",
+        time: "01:15",
+        stage: "Round of 32",
+        home: "Germany",
+        away: "Paraguay",
+        slug: "germany-vs-paraguay",
       },
       {
-        time: "07:45",
-        group: "F",
+        time: "05:45",
+        stage: "Round of 32",
+        home: "Netherlands",
+        away: "Morocco",
+        slug: "netherlands-vs-morocco",
+      },
+    ],
+  },
+
+  {
+    date: "Tue, Jun 30",
+    matches: [
+      {
+        time: "TBD",
+        stage: "Round of 32",
+        home: "France",
+        away: "Egypt",
+        slug: "france-vs-egypt",
+      },
+      {
+        time: "TBD",
+        stage: "Round of 32",
+        home: "Switzerland",
+        away: "Norway",
+        slug: "switzerland-vs-norway",
+      },
+      {
+        time: "TBD",
+        stage: "Round of 32",
+        home: "Mexico",
+        away: "Iraq",
+        slug: "mexico-vs-iraq",
+      },
+    ],
+  },
+
+  {
+    date: "Wed, Jul 1",
+    matches: [
+      {
+        time: "TBD",
+        stage: "Round of 32",
+        home: "England",
+        away: "DR Congo",
+        slug: "england-vs-dr-congo",
+      },
+      {
+        time: "TBD",
+        stage: "Round of 32",
+        home: "Portugal",
+        away: "Croatia",
+        slug: "portugal-vs-croatia",
+      },
+      {
+        time: "TBD",
+        stage: "Round of 32",
+        home: "Argentina",
+        away: "Saudi Arabia",
+        slug: "argentina-vs-saudi-arabia",
+      },
+    ],
+  },
+
+  {
+    date: "Thu, Jul 2",
+    matches: [
+      {
+        time: "TBD",
+        stage: "Round of 32",
+        home: "Spain",
+        away: "Austria",
+        slug: "spain-vs-austria",
+      },
+      {
+        time: "TBD",
+        stage: "Round of 32",
+        home: "Belgium",
+        away: "Australia",
+        slug: "belgium-vs-australia",
+      },
+      {
+        time: "TBD",
+        stage: "Round of 32",
+        home: "Türkiye",
+        away: "Uruguay",
+        slug: "turkiye-vs-uruguay",
+      },
+    ],
+  },
+
+  {
+    date: "Fri, Jul 3",
+    matches: [
+      {
+        time: "TBD",
+        stage: "Round of 32",
+        home: "Colombia",
+        away: "USA",
+        slug: "colombia-vs-usa",
+      },
+      {
+        time: "TBD",
+        stage: "Round of 32",
+        home: "Qatar",
+        away: "Iran",
+        slug: "qatar-vs-iran",
+      },
+      {
+        time: "TBD",
+        stage: "Round of 32",
         home: "Sweden",
         away: "Tunisia",
         slug: "sweden-vs-tunisia",
-      },
-      {
-        time: "21:45",
-        group: "H",
-        home: "Spain",
-        away: "Cabo Verde",
-        slug: "spain-vs-cabo-verde",
-      },
-    ],
-  },
-  {
-    date: "Tue, Jun 16",
-    matches: [
-      {
-        time: "00:45",
-        group: "G",
-        home: "Belgium",
-        away: "Egypt",
-        slug: "belgium-vs-egypt",
-      },
-      {
-        time: "03:45",
-        group: "H",
-        home: "Saudi Arabia",
-        away: "Uruguay",
-        slug: "saudi-arabia-vs-uruguay",
-      },
-      {
-        time: "06:45",
-        group: "G",
-        home: "Iran",
-        away: "New Zealand",
-        slug: "iran-vs-new-zealand",
-      },
-    ],
-  },
-  {
-    date: "Wed, Jun 17",
-    matches: [
-      {
-        time: "00:45",
-        group: "I",
-        home: "France",
-        away: "Senegal",
-        slug: "france-vs-senegal",
-      },
-      {
-        time: "03:45",
-        group: "I",
-        home: "Iraq",
-        away: "Norway",
-        slug: "iraq-vs-norway",
-      },
-      {
-        time: "06:45",
-        group: "J",
-        home: "Argentina",
-        away: "Algeria",
-        slug: "argentina-vs-algeria",
-      },
-      {
-        time: "09:45",
-        group: "J",
-        home: "Austria",
-        away: "Jordan",
-        slug: "austria-vs-jordan",
-      },
-      {
-        time: "22:45",
-        group: "K",
-        home: "Portugal",
-        away: "DR Congo",
-        slug: "portugal-vs-dr-congo",
-      },
-    ],
-  },
-  {
-    date: "Thu, Jun 18",
-    matches: [
-      {
-        time: "01:45",
-        group: "L",
-        home: "England",
-        away: "Croatia",
-        slug: "england-vs-croatia",
-      },
-      {
-        time: "04:45",
-        group: "L",
-        home: "Ghana",
-        away: "Panama",
-        slug: "ghana-vs-panama",
-      },
-      {
-        time: "07:45",
-        group: "K",
-        home: "Uzbekistan",
-        away: "Colombia",
-        slug: "uzbekistan-vs-colombia",
-      },
-    ],
-  },
-  {
-    date: "Fri, Jun 19",
-    matches: [
-      {
-        time: "00:45",
-        group: "B",
-        home: "Switzerland",
-        away: "Bosnia and Herzegovina",
-        slug: "switzerland-vs-bosnia",
-      },
-      {
-        time: "03:45",
-        group: "B",
-        home: "Canada",
-        away: "Qatar",
-        slug: "canada-vs-qatar",
-      },
-      {
-        time: "06:45",
-        group: "A",
-        home: "Mexico",
-        away: "South Korea",
-        slug: "mexico-vs-south-korea",
-      },
-    ],
-  },
-  {
-    date: "Sat, Jun 20",
-    matches: [
-      {
-        time: "00:45",
-        group: "D",
-        home: "USA",
-        away: "Australia",
-        slug: "usa-vs-australia",
-      },
-      {
-        time: "03:45",
-        group: "C",
-        home: "Scotland",
-        away: "Morocco",
-        slug: "scotland-vs-morocco",
-      },
-      {
-        time: "06:15",
-        group: "C",
-        home: "Brazil",
-        away: "Haiti",
-        slug: "brazil-vs-haiti",
-      },
-      {
-        time: "08:45",
-        group: "D",
-        home: "Türkiye",
-        away: "Paraguay",
-        slug: "turkiye-vs-paraguay",
       },
     ],
   },
@@ -384,10 +307,6 @@ export default function MatchList() {
                       <div className="text-center w-1/3">
                         <div className="text-white font-bold text-sm">
                           {m.time}
-                        </div>
-
-                        <div className="mt-1">
-                          <Countdown target={matchDate} />
                         </div>
                       </div>
 
