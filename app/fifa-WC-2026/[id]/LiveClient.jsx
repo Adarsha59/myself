@@ -1,5 +1,6 @@
 "use client";
 
+import Adsense from "../../components/Adsense";
 import { useRef, useState, useEffect } from "react";
 
 export default function LiveClient() {
@@ -9,11 +10,12 @@ export default function LiveClient() {
   const links = {
     1: "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
     2: "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8",
-    3: "https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8",
+    // 3: "https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8",
+    3: "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
   };
 
   useEffect(() => {
-    const handler = (e) => {
+    const keyHandler = (e) => {
       if (
         e.key === "F12" ||
         (e.ctrlKey &&
@@ -25,12 +27,19 @@ export default function LiveClient() {
       }
     };
 
-    document.addEventListener("keydown", handler);
+    const contextHandler = (e) => {
+      e.preventDefault();
+    };
+
+    document.addEventListener("keydown", keyHandler);
+    document.addEventListener("contextmenu", contextHandler);
 
     return () => {
-      document.removeEventListener("keydown", handler);
+      document.removeEventListener("keydown", keyHandler);
+      document.removeEventListener("contextmenu", contextHandler);
     };
   }, []);
+
   const goFullScreen = () => {
     const el = playerRef.current;
 
@@ -55,6 +64,9 @@ export default function LiveClient() {
         flexDirection: "column",
       }}
     >
+      {/* TOP ADSENSE */}
+      <Adsense slot="8368900017" />
+
       {/* PLAYER AREA */}
       <div
         style={{
@@ -113,6 +125,9 @@ export default function LiveClient() {
           />
         </div>
       </div>
+
+      {/* BOTTOM ADSENSE */}
+      <Adsense slot="8368900017" />
 
       {/* SERVER SWITCHER */}
       <div
