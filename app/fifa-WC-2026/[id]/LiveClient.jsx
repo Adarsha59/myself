@@ -1,17 +1,36 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 
 export default function LiveClient() {
   const [server, setServer] = useState(1);
   const playerRef = useRef(null);
 
   const links = {
-    1: "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u2",
+    1: "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
     2: "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8",
-    3: "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
+    3: "https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8",
   };
 
+  useEffect(() => {
+    const handler = (e) => {
+      if (
+        e.key === "F12" ||
+        (e.ctrlKey &&
+          e.shiftKey &&
+          ["I", "J", "C"].includes(e.key.toUpperCase())) ||
+        (e.ctrlKey && e.key.toUpperCase() === "U")
+      ) {
+        e.preventDefault();
+      }
+    };
+
+    document.addEventListener("keydown", handler);
+
+    return () => {
+      document.removeEventListener("keydown", handler);
+    };
+  }, []);
   const goFullScreen = () => {
     const el = playerRef.current;
 
@@ -117,7 +136,7 @@ export default function LiveClient() {
             borderRadius: "12px",
           }}
         >
-          {[2, 3].map((s) => (
+          {[1, 2, 3].map((s) => (
             <button
               key={s}
               onClick={() => setServer(s)}
